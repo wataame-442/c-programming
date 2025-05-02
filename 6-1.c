@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 int main(){
-    int a;
+    int a,s;
     a=0;
     for(a=1;a<=10;a++){
-    printf("%d\n",a);
+    s=s+a;
 }
+printf("1~10までの和は...%d\n",s);
 return 0;
 }
